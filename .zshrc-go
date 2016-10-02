@@ -1,4 +1,4 @@
-# echo "source ~/my-dot-files/.zshrc-go" >> ~/.zshrc 
+# echo "source ~/my-dot-configs/.zshrc-go" >> ~/.zshrc 
 
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
