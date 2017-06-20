@@ -1,4 +1,4 @@
-# echo "source ~/my-dot-configs/.go" >> ~/.zshrc 
+# This configuration is related to Go(lang)
 
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
