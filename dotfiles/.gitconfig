@@ -1,0 +1,13 @@
+[user]
+	name = Elena Grahovac
+	email = elena@grahovac.me
+	signingkey = 8D940F72D6919A44
+
+[core]
+	excludesfile = /Users/elena/.gitignore_global
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[url "ssh://git@stash.openprovider.nl:7999"]
+	insteadOf = https://stash.openprovider.nl/scm
