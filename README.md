@@ -1,4 +1,2 @@
-```
-cd ~
-git clone git@github.com:rumyantseva/my-dot-configs.git
-```
+This is a set of dotfiles contains useful configurations.
+
