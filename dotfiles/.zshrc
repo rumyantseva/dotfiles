@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/bin/kube-aws:/usr/local/bin:$PATH
+export PATH=$HOME/bin/kube-aws:/usr/local/bin:$HOME/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -93,3 +93,6 @@ if [ -f '/Users/elena/bin/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/elena/bin/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/elena/bin/google-cloud-sdk/completion.zsh.inc'; fi
+
+#alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+

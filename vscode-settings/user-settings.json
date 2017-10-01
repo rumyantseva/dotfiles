@@ -1,0 +1,31 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "go.formatTool": "goimports",
+    "cSpell.userWords": [
+        "Readyz",
+        "Upsert",
+        "goimports",
+        "ioutil",
+        "logrus",
+        "mcloud",
+        "rumyantseva",
+        "takama",
+        "uuid"
+    ],
+    // Format a file on save.
+    // A formatter must be available,
+    // the file must not be auto-saved,
+    // and editor must not be shutting down.
+    "editor.formatOnSave": false,
+    // Controls auto save of dirty files.
+    // Accepted values:  'off', 'afterDelay',
+    // 'onFocusChange' (editor loses focus),
+    // 'onWindowChange' (window loses focus).
+    // If set to 'afterDelay', you can configure
+    // the delay in 'files.autoSaveDelay'.
+    "files.autoSave": "onFocusChange"
+    //"editor.fontSize":14,
+   // "editor.fontSize":12,
+    //"window.zoomLevel": 3
+    //"window.zoomLevel": 1
+}
