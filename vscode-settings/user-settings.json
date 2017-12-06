@@ -23,9 +23,10 @@
     // 'onWindowChange' (window loses focus).
     // If set to 'afterDelay', you can configure
     // the delay in 'files.autoSaveDelay'.
-    "files.autoSave": "onFocusChange"
-    //"editor.fontSize":14,
-   // "editor.fontSize":12,
-    //"window.zoomLevel": 3
+    "files.autoSave": "onFocusChange",
+    "extensions.ignoreRecommendations": true
+    // "editor.fontSize":15,
+    // "editor.fontSize":12,
+    // "window.zoomLevel": 2
     //"window.zoomLevel": 1
 }
