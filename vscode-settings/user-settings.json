@@ -24,9 +24,20 @@
     // If set to 'afterDelay', you can configure
     // the delay in 'files.autoSaveDelay'.
     "files.autoSave": "onFocusChange",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
     // "editor.fontSize":15,
     // "editor.fontSize":12,
     // "window.zoomLevel": 2
     //"window.zoomLevel": 1
+
+
+    // special for rust: https://github.com/rust-lang-nursery/rls
+    "window.openFoldersInNewWindow": "off",
+    "window.openFilesInNewWindow": "off",
+    "rust.mode": "legacy",
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-apple-darwin",
+        "toolchain": "stable-x86_64-apple-darwin"
+    },
+    "window.zoomLevel": -1,
 }

@@ -88,12 +88,6 @@ source $ZSH/oh-my-zsh.sh
 # Add extended dotfiles
 source ~/.goconfig
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/elena/bin/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/elena/bin/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/elena/bin/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/elena/bin/google-cloud-sdk/completion.zsh.inc'; fi
-
 #alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 
@@ -102,3 +96,11 @@ source /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
 
 vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
