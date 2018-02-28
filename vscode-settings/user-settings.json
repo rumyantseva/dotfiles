@@ -39,5 +39,5 @@
         "nightlyToolchain": "nightly-x86_64-apple-darwin",
         "toolchain": "stable-x86_64-apple-darwin"
     },
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
 }
