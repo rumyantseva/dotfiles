@@ -104,3 +104,6 @@ if [ -f '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+
+source /usr/local/etc/bash_completion.d/password-store
