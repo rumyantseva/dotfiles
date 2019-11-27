@@ -90,10 +90,6 @@ source ~/.goconfig
 
 #alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
-
-# Preapre nix - https://nixos.org/nix/manual/#chap-quick-start
-source /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
-
 vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 # Rust
