@@ -52,7 +52,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl go docker z)
+plugins=(git kubectl go docker aws copyfile jira python pylint rust tmux vscode z web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,13 +90,8 @@ source ~/.goconfig
 
 #alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
-vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
