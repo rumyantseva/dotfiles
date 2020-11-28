@@ -52,7 +52,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl go docker aws copyfile jira python pylint rust tmux vscode z web-search)
+plugins=(git kubectl docker aws copyfile jira python pylint rust tmux vscode z web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -92,6 +92,3 @@ source ~/.goconfig
 
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
-
-source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
