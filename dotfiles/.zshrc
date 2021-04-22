@@ -52,7 +52,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl golang docker z)
+plugins=(git kubectl docker aws copyfile jira python pylint rust tmux vscode z web-search golang)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,8 +103,5 @@ if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/elena/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
-
-# Geekbrains kubeconfig
-export KUBECONFIG=~/kubeconf/geekbrains.yaml
 
 export LANG=ru_RU.UTF-8
