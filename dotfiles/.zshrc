@@ -52,7 +52,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl go docker z)
+plugins=(git kubectl golang docker z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -96,7 +96,15 @@ vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/elena/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/elena/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+
+# Geekbrains kubeconfig
+export KUBECONFIG=~/kubeconf/geekbrains.yaml
+
+export LANG=ru_RU.UTF-8
