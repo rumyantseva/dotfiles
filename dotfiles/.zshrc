@@ -105,3 +105,14 @@ if [ -f '/Users/elena/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '
 HEROKU_AC_ZSH_SETUP_PATH=/Users/elena/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
 export LANG=ru_RU.UTF-8
+
+# Created by `pipx` on 2021-08-05 07:56:24
+export PATH="$PATH:/Users/elena/Library/Python/3.9/bin"
+
+# Created by `pipx` on 2021-08-06 06:12:26
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
+export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
+
+export PATH="$PATH:/Users/elena/ferret/FerretDB/bin"
+export GPG_TTY=$(tty)

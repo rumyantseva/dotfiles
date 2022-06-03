@@ -2,4 +2,6 @@
 .idea
 .vscode
 .pre-commit-config.yaml
+go.work
+go.work.sum
 
